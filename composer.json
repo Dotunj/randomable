@@ -1,0 +1,31 @@
+{
+    "name": "dotunj/randomable",
+    "description": "A package for generating random data",
+    "authors": [
+        {
+            "name": "Dotunj",
+            "email": "dotunjolaosho@yahoo.com"
+        }
+    ],
+    "require": {
+        "fzaninotto/faker": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dotunj\\Randomable\\":"src/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dotunj\\Randomable\\RandomableServiceProvider"
+            ],
+            "aliases": {
+                "Randomable": "Dotunj\\Randomable\\Facades\\RandomableFacade"
+            }
+        }
+    }
+}
