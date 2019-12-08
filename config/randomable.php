@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'table_name' => 'randomables' 
+    'table_name' => 'randomables',
 ];

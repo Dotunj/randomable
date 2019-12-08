@@ -17,22 +17,22 @@ class Randomable extends Model
     }
 
     public static function getRandomFirstName()
-    { 
+    {
         return self::getRandomRow()->first_name;
     }
 
     public static function getRandomLastName()
-    { 
+    {
         return self::getRandomRow()->last_name;
     }
 
     public static function getRandomEmail()
-    { 
+    {
         return self::getRandomRow()->email;
     }
 
     public static function getRandomRow()
     {
-        return Randomable::inRandomOrder()->first();
+        return self::inRandomOrder()->first();
     }
 }
