@@ -10,7 +10,7 @@ class RandomableTableSeeder extends Seeder
     {
         $faker = Faker::create();
 
-        for ($i = 1; $i < 30; $i++) {
+        for ($i = 1; $i <= 30; $i++) {
             DB::table(config('randomable.table_name'))->insert([
                 'first_name' => $faker->firstName,
                 'last_name' => $faker->lastName,

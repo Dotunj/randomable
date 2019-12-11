@@ -15,9 +15,6 @@
             "Dotunj\\Randomable\\":"src/"
         }
     },
-    "require-dev": {
-        "orchestra/testbench": "^4.0"
-    },
     "extra": {
         "laravel": {
             "providers": [
