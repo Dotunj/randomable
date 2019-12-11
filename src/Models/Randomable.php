@@ -32,5 +32,4 @@ class Randomable extends Model
     {
         return self::getRandomRow()->email;
     }
-    
 }
