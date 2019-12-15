@@ -1,6 +1,7 @@
 {
     "name": "dotunj/randomable",
     "description": "A package for generating random data",
+    "license": "MIT",
     "authors": [
         {
             "name": "Dotunj",
