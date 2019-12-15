@@ -79,4 +79,4 @@ Want to contribute to this package? Read our [contributor guidelines](CONTRIBUTI
 
 ## License
 
-This demo is released under the [MIT License](LICENSE.md).
+This package is released under the [MIT License](LICENSE.md).
